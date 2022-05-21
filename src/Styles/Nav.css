@@ -1,0 +1,30 @@
+.nav__bar {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+:link {
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+:link:hover {
+  color: #6f4e37;
+}
+
+:link,
+:visited {
+  color: black;
+}
+
+:link,
+:visited:hover {
+  color: #6f4e37;
+}
